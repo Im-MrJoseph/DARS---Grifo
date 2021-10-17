@@ -13,6 +13,17 @@ namespace Proyecto_SistemaDeGestionWeb_DARS.Controllers
             return View();
         }
 
+        public ActionResult Enter(string user, string password)
+        {
+            try
+            {
+                return Content("1");
+            }
+            catch (Exception ex) 
+            {
+                return Content("Ocurrió un error : ( "+ ex.Message);
+            }
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
