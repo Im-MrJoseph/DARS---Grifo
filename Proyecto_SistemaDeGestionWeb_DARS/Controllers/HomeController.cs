@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Proyecto_SistemaDeGestionWeb_DARS.Models;
 
 namespace Proyecto_SistemaDeGestionWeb_DARS.Controllers
 {
@@ -17,7 +18,7 @@ namespace Proyecto_SistemaDeGestionWeb_DARS.Controllers
         {
             try
             {
-                return Content("1");
+                    return Content("1");
             }
             catch (Exception ex) 
             {
